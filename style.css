@@ -6,9 +6,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Playfair Display', serif;}
+    font-family: 'Playfair Display', serif;
+}
 
 nav{
+    width: 100%;
     background-color: black;
     padding: 10px 60px;
     display: flex;
@@ -138,14 +140,16 @@ nav li a:hover{
 }
 
 /*inicie sua jornada*/
-.inicie{
+.inicie p{
     background-color: black;
     color: #fff;
     width: 100%;
+    margin: auto;
     height: 20vh;
-    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 20px;
     font-size: 50px;
 }
 
@@ -163,19 +167,19 @@ nav li a:hover{
     padding: 25px;
 }
 
-.comoSomos #comoSao{
+.comoSomos h2{
     margin-top: 45px;
     font-size: 40px;
 
 }
 
-.comoSomos #nossasAulas{
+.comoSomos h1{
     font-family: 'Cabin Sketch', cursiva;
     font-size: 70px;
 
 }
 
-.comoSomos #somosP{
+.comoSomos p{
     color: black;
     width: 75%;
     margin: auto;
@@ -184,26 +188,38 @@ nav li a:hover{
 }
 
 /*tipos de instrumentoos*/
-.fotosInst{
-    width: 50%;
-    height: 100px;
-    padding: 10px;
+
+.tiposDeInst,
+.tiposDeInst2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    margin-bottom: 3em;
+}
+
+.tipos-img {
+    width: 40vw;
+}
+
+.tipos-img img{
+    width: 100%;
 }
 
 .instP {
-    margin: 30px;
-    float: right;
-    padding: 20px;
-    width: 50%;
-    text-align: right;
-    font-size: 30px;
-    height: 100px;
+    width: 30vw;
 }
 
-.instP #titulo{
+
+.instP h1{
+    width: 70%;
+    height: 30px;
     background-color: black;
     text-transform: uppercase;
+    text-align: center;
     color: white;
-    padding: 0;
-    margin: 5px;
+}
+
+.tiposDeInst2 {
+    flex-direction: row-reverse;
 }

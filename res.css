@@ -1,0 +1,151 @@
+@media only screen and (max-width: 600px
+) {
+  
+*{
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+nav .logo a{
+  font-size: 15px;
+  font-weight: 600;
+}
+  
+nav{
+  padding: 5px 30px;
+  height: 8rem;
+}
+
+
+nav ul{
+  padding: 5px;
+}
+
+nav li{
+  margin-left: 3px;
+}
+
+nav li a{
+  font-size: 15px;
+  padding: 3px 12px;
+}
+
+/*titulo principal aula de musica*/
+
+/*section*/
+.banner{
+  height: 50vh;
+}
+
+.texto .titulo{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.texto .sub_titulo{
+  font-size: 38px;
+  font-weight: 500;
+}
+
+
+/*butoes principais*/
+.texto .botoes{
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.texto .botoes button{
+  height: 40px;
+  width: 120px;
+  margin: 0 5px;
+  padding: 0 5px;
+}
+
+
+
+/*inicie sua jornada*/
+.inicie p{
+  height: 5vh;
+  padding: 10px;
+  font-size: 25px;
+}
+
+
+
+/*como somos*/
+.comoSomos{
+  margin-top: 15px;
+  padding: 8px;
+}
+
+.comoSomos h2{
+  margin-top: 30px;
+  font-size: 20px;
+
+}
+
+.comoSomos h1{
+  font-size: 40px;
+
+}
+
+.comoSomos p{
+  font-size: 15px;
+  padding: 10px;
+}
+
+
+/*tipos de instrumentoos*/
+.tiposDeInst img{
+  width: 50%;
+  height: 200px;
+  padding: 2px;
+  margin: 5px;
+}
+
+.tiposDeInst img #violao{
+ float: right;
+}
+
+
+
+
+.tiposDeInst p{
+  padding: 2px;
+  margin: 1px;
+  font-size: 10px;  
+}
+
+
+
+.tiposDeInst h1{
+  height: 30px;
+  background-color: black;
+  width: 150px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*tipos de instrumentoos*/
+
+.tiposDeInst,
+.tiposDeInst2 {
+
+
+    gap: 3em;
+    margin-bottom: 3em;
+}
+
+.tiposDeInst .tipos-img {
+    width: 40vw;
+}
+
+.tiposDeInst .tipos-img img{
+  width: 100%;
+}
+
+}
